@@ -1,0 +1,38 @@
+GERENCIAMENTO DE DADOS E INFORMAÇÃO
+MINIMUNDO
+
+
+Professor: Robson Fidalgo
+Alunos: 
+Danilo Augusto Barbosa Nogueira (dabn@cin.ufpe.br)
+Filipe Baptistella Vieira (fbv@cin.ufpe.br)
+Rafael do Nascimento Moura (rnm4@cin.ufpe.br)
+Rodrigo Rocha Moura (rrm2@cin.ufpe.br)
+
+
+Recife, 23 de Fevereiro de 2022
+Uma federação de treinadores quer armazenar de maneira estruturada as informações referentes ao seu contexto.
+
+Entidades:
+Treinador (nome, sexo, ranking)
+Pokémon (tipo, ID, status (ataque, defesa, velocidade), habilidade) 
+Região (nome)
+Cidades (nome, demografia, bioma)
+Itens (nome, ID)
+Ginásio (tipo)
+
+•	Um Treinador pode capturar um Pokémon. Um Pokémon só pode ser capturado por um Treinador, mas um Treinador pode capturar mais de um Pokémon. Um Treinador não precisa capturar um Pokémon para ser cadastrado no BD. Um Pokémon não precisa ser capturado para ser cadastrado no BD.
+
+•	Um Treinador pode ser líder de um Ginásio. Um Ginásio só pode ser liderado por um Treinador, mas um Treinador pode liderar vários ginásios. Pode-se cadastrar um Treinador sem que este lidere um Ginásio, entretanto, um Ginásio deve ter um líder para ser cadastrado.
+
+•	Um Treinador pode duelar com outro Treinador. O duelo inicia quando o desafiador desafia o líder do ginásio. Um desafiador pode desafiar vários líderes, um líder pode ser desafiado por vários Treinadores. O vencedor do duelo pode ganhar uma insígnia. Cada duelo deve ter sua data cadastrada.
+
+•	Cada Região possui Cidades, as quais só podem ser identificadas a partir da Região. Uma Cidade só pode pertencer a uma Região. Uma Região pode ter várias cidades. Pode-se cadastrar uma Região sem uma Cidade.
+
+•	Cada Cidade é habitada por um Pokémon. Um Pokémon pode habitar somente em uma Cidade, mas uma Cidade pode ser habitada por vários Pokémons. Pode-se cadastrar uma Cidade sem Pokémons associados, mas um Pokémon precisa de uma habitação para ser cadastrado.
+
+•	Num duelo, um vencedor pode ganhar Itens ou não. A bonificação pode ser mais de um Item por duelo para o vencedor.
+
+•	Itens podem ser subdivididos em: Consumíveis e Equipáveis. Há ainda as Pokébolas, as quais não são nem Consumíveis nem Equipáveis.
+•	Consumíveis: eles possuem o relacionamento “consome” com os Pokémons. Um Pokémon pode consumir vários Itens e um Item só pode ser consumido por um Pokémon. Pode-se cadastrar um Pokémon ser ter consumido um Item e pode-se cadastrar um Item sem ser consumido pelo Pokémon.
+•	Equipáveis: eles possuem o relacionamento “equipa” com os Pokémons. Um Equipável pode ser equipado somente por um Pokémon, mas um Pokémon pode equipar vários Equipáveis. Pode-se cadastrar um Equipável sem ser equipado pelo Pokémon e pode-se cadastrar um Pokémon sem equipar um Equipável.
