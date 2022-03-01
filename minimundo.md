@@ -1,6 +1,7 @@
 # GERENCIAMENTO DE DADOS E INFORMAÇÃO
 
 Professor: Robson Fidalgo
+
 Alunos: 
 
 Danilo Augusto Barbosa Nogueira (dabn@cin.ufpe.br)
