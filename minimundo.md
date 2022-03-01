@@ -2,9 +2,13 @@
 
 Professor: Robson Fidalgo
 Alunos: 
+
 Danilo Augusto Barbosa Nogueira (dabn@cin.ufpe.br)
+
 Filipe Baptistella Vieira (fbv@cin.ufpe.br)
+
 Rafael do Nascimento Moura (rnm4@cin.ufpe.br)
+
 Rodrigo Rocha Moura (rrm2@cin.ufpe.br)
 
 Recife, 02 de Março de 2022
