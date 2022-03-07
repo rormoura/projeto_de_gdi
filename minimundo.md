@@ -30,8 +30,6 @@ Uma federação de treinadores quer armazenar de maneira estruturada as informa�
 
 *	Um Treinador pode capturar vários Pokémon enquanto um Pokémon só pode ser capturado por um Treinador. Para que seja cadastrado, um Treinador não precisa estar vinculado a um Pokémon assim como um Pokémon não precisa estar vinculado a um Treinador para ser cadastrado.
 
-*	Um Treinador pode liderar apenas um Ginásio, assim como um Ginásio só pode ser liderado por um Treinador. É possível cadastrar um Treinador sem ele estar vinculado a um Ginásio, mas não é possível cadastrar um Ginásio sem estar vinculado a um Treinador.
-
 *	Um Treinador pode desafiar vários outros Treinadores e pode ser desafiado por muitos Treinadores. Um duelo entre dois Treinadores pode ocorrer mais de uma vez e é possível que envolva uma insígnia (item) caso um dos Treinadores seja líder de um ginásio. Além disso, a data do duelo deve ser anotada para formação de um histórico.
 
 *	Uma Região pode possuir várias Cidades, mas uma Cidade só pode pertencer a uma Região. Regiões podem ser cadastradas sem estarem vinculadas a Cidades, mas uma Cidade precisa pertencer a uma Região para ser cadastrada.
