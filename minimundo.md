@@ -38,7 +38,7 @@ Uma federação de treinadores quer armazenar de maneira estruturada as informa�
 
 *	Um Treinador pertence a apenas uma Cidade e não pode ser cadastrado sem ser vinculado a essa Cidade, entretanto, uma Cidade pode conter vários Treinadores e pode ser cadastrada sem conter nenhum Treinador.
 
-*	Um Treinador pode comprar vários itens e um Item pode comprado por vários Treinadores. Não é necessário que um Item seja comprado por um Treinador para que este seja cadastrado, assim como um Treinador não precisa possuir um Item para que este seja cadastrado. Existem itens de vários tipos e muitos deles têm características próprias:
+*	Um Treinador pode comprar vários itens e um Item pode ser comprado por vários Treinadores. Não é necessário que um Item seja comprado por um Treinador para que este seja cadastrado, assim como um Treinador não precisa possuir um Item para que este seja cadastrado. Existem itens de vários tipos e muitos deles têm características próprias:
     - Os itens de recuperação trazem de volta os pontos de vida do Pokémon; 
     -	Os itens de aprimoramento multiplicam um status específico do Pokémon (ataque, defesa, velocidade etc.) por X vezes; 
     -	Os itens de estado curam um estado específico de um Pokémon (envenenamento, paralização, congelamento etc.); 
