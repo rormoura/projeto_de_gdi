@@ -44,7 +44,7 @@ A ATP (Associação de Treinadores Pokémon) deseja construir um histórico sobr
 *	Um Treinador pode comprar vários itens e um Item só pode ser comprado por um Treinador. Não é necessário que um Item seja comprado por um Treinador para que este seja cadastrado, assim como um Treinador não precisa possuir um Item para que este seja cadastrado. Existem itens de vários tipos e muitos deles têm características próprias:
     - Os itens de aprimoramento multiplicam um status específico do Pokémon (A_ataque, A_defesa, A_velocidade, A_pontos_de_vida) por X vezes; 
     - Os itens de movimento servem para ensinar um movimento a um Pokémon. Um Pokémon se relaciona com um item de movimento a partir do relacionamento aprende. Um Pokémon pode aprender mais de um movimento e um mesmo movimento pode ser ensinado a mais de um Pokémon. Não é necessário que um movimento seja aprendido por um Pokémon para que este seja cadastrado, assim como um Pokémon não precisa aprender um movimento para que este seja cadastrado.
-* Existem itens que não se encaixam em nenhuma dessas classificações como a Pokébola, além de que alguns itens podem estar em mais de uma categoria.
+* Existem itens que não se encaixam em nenhuma dessas classificações como a Pokébola.
     - Tornou-se costume dos Treinadores Pokémon a compra de Itens, pois são ferramentas úteis tanto para o treinador como para o Pokémon.
 
 * Desse modo, podemos ver que o histórico passa pelos aspectos mais importantes do mundo Pokémon; abrangendo cultura, geografia, relações entre treinadores, relações treinadores-Pokémons e objetos essenciais como Itens e Insígnias.
